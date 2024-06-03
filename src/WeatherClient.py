@@ -1,4 +1,5 @@
-import requests
+# This repository does not hold the entire source code for weatherful bot, it serves to show proof of concept
+# Critical code is omitted from this repositoryimport requests
 import json
 import pytz
 import logging
@@ -90,7 +91,6 @@ class WeatherClient:
                 grouped_days[description].append(
                     f"📆{day_of_week} | {max_temp}/{min_temp}°F🌡️")
 
-            # Append grouped days to the tweet_text
             for desc, days_list in grouped_days.items():
                 comment = self.weekly_comments.get(desc, '')
                 tweet_text += f"\n{comment}"

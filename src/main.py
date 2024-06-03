@@ -1,3 +1,5 @@
+# This repository does not hold the entire source code for weatherful bot, it serves to show proof of concept
+# Critical code is omitted from this repository
 from WeatherfulBot import WeatherfulBot
 
 
