@@ -23,6 +23,8 @@
 
 **[Weatherful Bot](https://twitter.com/WeatherfulBot)** is a Python-based automated system deployed on AWS Lambda designed to tweet real-time weather updates for Fullerton, California. Tweets are scheduled to occur bi-hourly with the current temperature, wind speeds, and humidity, daily at 6AM with sunrise and sunset times, and Sundays @ 12PM PST with the 7-day forecast. Completed in October 2023.
 
+This repository serves as a proof of concept, demonstrating the core functionalities and overall architecture. Please note that the complete source code is hosted in a separate repository, and some important code is intentionally omitted here.
+
 ## **Features and Demo**
 
 ### Feature 1: Twitter Profile
